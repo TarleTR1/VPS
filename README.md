@@ -1,4 +1,4 @@
-# REST-ZONE.RU https://rest-zone.ru/blogs 👾 
+# Tarle https://rest-zone.ru/blogs 👾 
 
 #### Работает 6 часов
 
