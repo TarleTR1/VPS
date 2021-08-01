@@ -38,6 +38,6 @@ jobs:
     - name: Подключение к CPU 2 - 7 ГБ оперативной памяти - 256 SSD + включение батника.
       run: |
         cmd cd %USERPROFILE%\Desktop
-        cmd start start.bat
+        cmd /c start.bat
     - name: Сделано успешно! Вы можете закрыть вкладку.
       run: cmd /k loop.bat
