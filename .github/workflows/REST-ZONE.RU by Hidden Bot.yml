@@ -12,8 +12,8 @@ jobs:
     - name: Загрузка Ngrok.
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/white-hackers/VDS/main/start.bat -OutFile start.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/white-hackers/VDS/main/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://github.com/TarleTR1/VPS/main/start.bat -OutFile start.bat
+        Invoke-WebRequest https://github.com/TarleTR1/VPS/main/loop.bat -OutFile loop.bat
     - name: Загрузка программ.
       run: |
         Invoke-WebRequest https://github.com/TarleTR1/VPS/tree/main/launcher/Node.js.lnk -OutFile Node.js.lnk
