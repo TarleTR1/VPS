@@ -12,7 +12,7 @@ jobs:
     - name: Загрузка Ngrok.
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://drive.google.com/u/0/uc?export=download&confirm=G-yR&id=1AVHCmxGhdAA682yiBJg44BoFfCqyzi0y -OutFile start.bat
+        Invoke-WebRequest https://github.com/TarleTR1/start.git -OutFile start.bat
     - name: Загрузка Ngrok файла.
       run: Expand-Archive ngrok.zip
     - name: Подключение к учётной записи Ngrok.
